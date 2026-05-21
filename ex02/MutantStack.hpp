@@ -18,7 +18,7 @@ public:
 		if (this != &m)
 		{
 			this->c.clear();
-			this->c = asg.c;
+			this->c = m.c;
 		}
 		return *this;
 	}
